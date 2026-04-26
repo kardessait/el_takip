@@ -45,15 +45,4 @@ Projenin çalışması için bilgisayarınızda Python yüklü olmalıdır.
 
 ``` Bash
 git clone https://github.com/kullaniciadi/neon-hand-tracker.git
-cd neon-hand-tracker ```
-
-```Bash
-python3 -m venv venv
-source venv/bin/activate ```
-
-``` Bash
-pip install opencv-python mediapipe numpy ```
-
-``` Bash
-python main.py ```
-
+cd neon-hand-tracker
