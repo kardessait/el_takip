@@ -43,6 +43,21 @@ M4 Mac Optimizasyonu: Apple Silicon işlemcilerde yüksek performanslı görünt
 🛠️ Kurulum (Installation)
 Projenin çalışması için bilgisayarınızda Python yüklü olmalıdır.
 
+1.Projeyi klonlayın:
 ``` Bash
 git clone https://github.com/kullaniciadi/neon-hand-tracker.git
 cd neon-hand-tracker
+```
+2.Sanal ortam oluşturun ve aktif edin:
+```Bash
+python3 -m venv venv
+source venv/bin/activate
+```
+3.Gerekli kütüphaneleri yükleyin:
+```Bash
+pip install opencv-python mediapipe numpy
+```
+4.Uygulamayı çalıştırın:
+```Bash
+python main.py
+```
